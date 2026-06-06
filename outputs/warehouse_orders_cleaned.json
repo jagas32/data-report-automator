@@ -1,0 +1,325 @@
+{
+  "metadata": {
+    "source": "inputs/warehouse_orders.csv",
+    "rows_in": 30,
+    "rows_out": 29,
+    "cleaned_at": "2026-06-06",
+    "date_cols": [
+      "date"
+    ],
+    "metric_cols": [
+      "quantity",
+      "sales_amount"
+    ],
+    "outlier_rows": {
+      "quantity": [
+        23
+      ],
+      "sales_amount": [
+        23
+      ]
+    }
+  },
+  "cleaning_log": [
+    "normalized column names to snake_case",
+    "dropped 1 exact duplicate row(s)",
+    "parsed 'date' to ISO 8601 dates",
+    "coerced 'sales_amount' to numeric (stripped $ , %)",
+    "normalized casing in 'region'",
+    "1 missing value(s) in 'sales_amount' kept and flagged (not imputed)",
+    "flagged 1 outlier(s) in 'quantity' (>3 IQR), kept in data",
+    "flagged 1 outlier(s) in 'sales_amount' (>3 IQR), kept in data"
+  ],
+  "data": [
+    {
+      "order_id": "ORD-1001",
+      "date": "2026-01-08",
+      "product": "Office Chair",
+      "quantity": 4,
+      "sales_amount": 1196.0,
+      "region": "West",
+      "status": "Delivered",
+      "customer_type": "Business"
+    },
+    {
+      "order_id": "ORD-1002",
+      "date": "2026-01-12",
+      "product": "Standing Desk",
+      "quantity": 2,
+      "sales_amount": 1398.0,
+      "region": "North",
+      "status": "Delivered",
+      "customer_type": "Business"
+    },
+    {
+      "order_id": "ORD-1003",
+      "date": "2026-01-15",
+      "product": "Monitor Arm",
+      "quantity": 6,
+      "sales_amount": 534.0,
+      "region": "East",
+      "status": "Delivered",
+      "customer_type": "Consumer"
+    },
+    {
+      "order_id": "ORD-1004",
+      "date": "2026-01-21",
+      "product": "Filing Cabinet",
+      "quantity": 3,
+      "sales_amount": 867.0,
+      "region": "South",
+      "status": "Cancelled",
+      "customer_type": "Business"
+    },
+    {
+      "order_id": "ORD-1005",
+      "date": "2026-01-27",
+      "product": "Bookshelf",
+      "quantity": 1,
+      "sales_amount": 219.0,
+      "region": "West",
+      "status": "Delivered",
+      "customer_type": "Consumer"
+    },
+    {
+      "order_id": "ORD-1006",
+      "date": "2026-02-03",
+      "product": "Office Chair",
+      "quantity": 8,
+      "sales_amount": 2392.0,
+      "region": "West",
+      "status": "Delivered",
+      "customer_type": "Business"
+    },
+    {
+      "order_id": "ORD-1007",
+      "date": "2026-02-09",
+      "product": "Standing Desk",
+      "quantity": 1,
+      "sales_amount": 699.0,
+      "region": "East",
+      "status": "Delivered",
+      "customer_type": "Consumer"
+    },
+    {
+      "order_id": "ORD-1008",
+      "date": "2026-02-14",
+      "product": "Monitor Arm",
+      "quantity": 12,
+      "sales_amount": 1068.0,
+      "region": "North",
+      "status": "Shipped",
+      "customer_type": "Business"
+    },
+    {
+      "order_id": "ORD-1009",
+      "date": "2026-02-18",
+      "product": "Bookshelf",
+      "quantity": 2,
+      "sales_amount": 438.0,
+      "region": "South",
+      "status": "Delivered",
+      "customer_type": "Consumer"
+    },
+    {
+      "order_id": "ORD-1010",
+      "date": "2026-02-24",
+      "product": "Office Chair",
+      "quantity": 3,
+      "sales_amount": 897.0,
+      "region": "East",
+      "status": "Delivered",
+      "customer_type": "Consumer"
+    },
+    {
+      "order_id": "ORD-1011",
+      "date": "2026-03-04",
+      "product": "Standing Desk",
+      "quantity": 5,
+      "sales_amount": 3495.0,
+      "region": "West",
+      "status": "Delivered",
+      "customer_type": "Business"
+    },
+    {
+      "order_id": "ORD-1012",
+      "date": "2026-03-09",
+      "product": "Filing Cabinet",
+      "quantity": 2,
+      "sales_amount": 578.0,
+      "region": "North",
+      "status": "Delivered",
+      "customer_type": "Consumer"
+    },
+    {
+      "order_id": "ORD-1013",
+      "date": "2026-03-13",
+      "product": "Office Chair",
+      "quantity": 10,
+      "sales_amount": 2990.0,
+      "region": "West",
+      "status": "Delivered",
+      "customer_type": "Business"
+    },
+    {
+      "order_id": "ORD-1014",
+      "date": "2026-03-17",
+      "product": "Monitor Arm",
+      "quantity": 4,
+      "sales_amount": 356.0,
+      "region": "South",
+      "status": "Cancelled",
+      "customer_type": "Consumer"
+    },
+    {
+      "order_id": "ORD-1015",
+      "date": "2026-03-23",
+      "product": "Bookshelf",
+      "quantity": 6,
+      "sales_amount": 1314.0,
+      "region": "East",
+      "status": "Delivered",
+      "customer_type": "Business"
+    },
+    {
+      "order_id": "ORD-1016",
+      "date": "2026-03-30",
+      "product": "Standing Desk",
+      "quantity": 3,
+      "sales_amount": 2097.0,
+      "region": "West",
+      "status": "Delivered",
+      "customer_type": "Business"
+    },
+    {
+      "order_id": "ORD-1017",
+      "date": "2026-04-06",
+      "product": "Office Chair",
+      "quantity": 5,
+      "sales_amount": 1495.0,
+      "region": "North",
+      "status": "Delivered",
+      "customer_type": "Business"
+    },
+    {
+      "order_id": "ORD-1018",
+      "date": "2026-04-10",
+      "product": "Monitor Arm",
+      "quantity": 8,
+      "sales_amount": 712.0,
+      "region": "West",
+      "status": "Delivered",
+      "customer_type": "Business"
+    },
+    {
+      "order_id": "ORD-1019",
+      "date": "2026-04-15",
+      "product": "Filing Cabinet",
+      "quantity": 4,
+      "sales_amount": NaN,
+      "region": "South",
+      "status": "Shipped",
+      "customer_type": "Business"
+    },
+    {
+      "order_id": "ORD-1020",
+      "date": "2026-04-20",
+      "product": "Bookshelf",
+      "quantity": 3,
+      "sales_amount": 657.0,
+      "region": "East",
+      "status": "Delivered",
+      "customer_type": "Consumer"
+    },
+    {
+      "order_id": "ORD-1021",
+      "date": "2026-04-24",
+      "product": "Standing Desk",
+      "quantity": 6,
+      "sales_amount": 4194.0,
+      "region": "West",
+      "status": "Delivered",
+      "customer_type": "Business"
+    },
+    {
+      "order_id": "ORD-1022",
+      "date": "2026-04-28",
+      "product": "Office Chair",
+      "quantity": 2,
+      "sales_amount": 598.0,
+      "region": "South",
+      "status": "Pending",
+      "customer_type": "Consumer"
+    },
+    {
+      "order_id": "ORD-1023",
+      "date": "2026-05-05",
+      "product": "Standing Desk",
+      "quantity": 8,
+      "sales_amount": 5592.0,
+      "region": "West",
+      "status": "Delivered",
+      "customer_type": "Business"
+    },
+    {
+      "order_id": "ORD-1024",
+      "date": "2026-05-08",
+      "product": "Monitor Arm",
+      "quantity": 150,
+      "sales_amount": 13350.0,
+      "region": "North",
+      "status": "Delivered",
+      "customer_type": "Business"
+    },
+    {
+      "order_id": "ORD-1025",
+      "date": "2026-05-13",
+      "product": "Office Chair",
+      "quantity": 7,
+      "sales_amount": 2093.0,
+      "region": "East",
+      "status": "Delivered",
+      "customer_type": "Business"
+    },
+    {
+      "order_id": "ORD-1026",
+      "date": "2026-05-18",
+      "product": "Bookshelf",
+      "quantity": 4,
+      "sales_amount": 876.0,
+      "region": "West",
+      "status": "Delivered",
+      "customer_type": "Consumer"
+    },
+    {
+      "order_id": "ORD-1027",
+      "date": "2026-05-22",
+      "product": "Filing Cabinet",
+      "quantity": 5,
+      "sales_amount": 1445.0,
+      "region": "North",
+      "status": "Shipped",
+      "customer_type": "Business"
+    },
+    {
+      "order_id": "ORD-1028",
+      "date": "2026-05-27",
+      "product": "Standing Desk",
+      "quantity": 4,
+      "sales_amount": 2796.0,
+      "region": "West",
+      "status": "Delivered",
+      "customer_type": "Business"
+    },
+    {
+      "order_id": "ORD-1029",
+      "date": "2026-05-29",
+      "product": "Office Chair",
+      "quantity": 3,
+      "sales_amount": 897.0,
+      "region": "South",
+      "status": "Pending",
+      "customer_type": "Consumer"
+    }
+  ]
+}

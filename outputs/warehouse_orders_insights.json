@@ -1,0 +1,95 @@
+{
+  "headline": "sales_amount changed +541.9% from 2026-01 to 2026-05",
+  "insights": [
+    {
+      "finding": "sales_amount changed +541.9% from 2026-01 to 2026-05",
+      "evidence": "4,214 -> 27,049; total 55,243 across 28 rows",
+      "severity": "high",
+      "suggested_chart": "line"
+    },
+    {
+      "finding": "'West' leads region by sales_amount",
+      "evidence": "26,559 = 48.1% of total; next: North (19,334)",
+      "severity": "high",
+      "suggested_chart": "bar"
+    },
+    {
+      "finding": "'Delivered' leads status by sales_amount",
+      "evidence": "50,012 = 90.5% of total; next: Shipped (2,513)",
+      "severity": "high",
+      "suggested_chart": "bar"
+    },
+    {
+      "finding": "'Business' leads customer_type by sales_amount",
+      "evidence": "48,494 = 87.8% of total; next: Consumer (6,749)",
+      "severity": "high",
+      "suggested_chart": "bar"
+    },
+    {
+      "finding": "Outlier(s) detected in 'sales_amount'",
+      "evidence": "max outlier value 13,350 in 'sales_amount' across 1 flagged row(s) = 24.2% of total sales_amount",
+      "severity": "high",
+      "suggested_chart": "none"
+    },
+    {
+      "finding": "'Standing Desk' leads product by sales_amount",
+      "evidence": "20,271 = 36.7% of total; next: Monitor Arm (16,020)",
+      "severity": "medium",
+      "suggested_chart": "bar"
+    },
+    {
+      "finding": "Outlier(s) detected in 'quantity'",
+      "evidence": "max outlier value 150 in 'quantity' across 1 flagged row(s)",
+      "severity": "medium",
+      "suggested_chart": "none"
+    }
+  ],
+  "caveats": [
+    "dropped 1 exact duplicate row(s)",
+    "1 missing value(s) in 'sales_amount' kept and flagged (not imputed)",
+    "flagged 1 outlier(s) in 'quantity' (>3 IQR), kept in data",
+    "flagged 1 outlier(s) in 'sales_amount' (>3 IQR), kept in data"
+  ],
+  "computed": {
+    "metric_column": "sales_amount",
+    "date_column": "date",
+    "category_columns": [
+      "product",
+      "region",
+      "status",
+      "customer_type"
+    ],
+    "total": 55243.0,
+    "rows": 29,
+    "monthly": {
+      "2026-01": 4214.0,
+      "2026-02": 5494.0,
+      "2026-03": 10830.0,
+      "2026-04": 7656.0,
+      "2026-05": 27049.0
+    },
+    "by_product": {
+      "Standing Desk": 20271.0,
+      "Monitor Arm": 16020.0,
+      "Office Chair": 12558.0,
+      "Bookshelf": 3504.0,
+      "Filing Cabinet": 2890.0
+    },
+    "by_region": {
+      "West": 26559.0,
+      "North": 19334.0,
+      "East": 6194.0,
+      "South": 3156.0
+    },
+    "by_status": {
+      "Delivered": 50012.0,
+      "Shipped": 2513.0,
+      "Pending": 1495.0,
+      "Cancelled": 1223.0
+    },
+    "by_customer_type": {
+      "Business": 48494.0,
+      "Consumer": 6749.0
+    }
+  }
+}

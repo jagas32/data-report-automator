@@ -1,0 +1,31 @@
+Order_ID,Date,Product,Quantity,Sales_Amount,Region,Status,Customer_Type
+ORD-1001,2026-01-08,Office Chair,4,"$1,196.00",West,Delivered,Business
+ORD-1002,2026-01-12,Standing Desk,2,"$1,398.00",North,Delivered,Business
+ORD-1003,2026-01-15,Monitor Arm,6,$534.00,East,Delivered,Consumer
+ORD-1004,2026-01-21,Filing Cabinet,3,$867.00,South,Cancelled,Business
+ORD-1005,2026-01-27,Bookshelf,1,$219.00,West,Delivered,Consumer
+ORD-1006,2026-02-03,Office Chair,8,"$2,392.00",West,Delivered,Business
+ORD-1007,2026-02-09,Standing Desk,1,$699.00,East,Delivered,Consumer
+ORD-1007,2026-02-09,Standing Desk,1,$699.00,East,Delivered,Consumer
+ORD-1008,02/14/2026,Monitor Arm,12,"$1,068.00",North,Shipped,Business
+ORD-1009,2026-02-18,Bookshelf,2,$438.00,South,Delivered,Consumer
+ORD-1010,2026-02-24,Office Chair,3,$897.00,East,Delivered,Consumer
+ORD-1011,2026-03-04,Standing Desk,5,"$3,495.00",West,Delivered,Business
+ORD-1012,2026-03-09,Filing Cabinet,2,$578.00,North,Delivered,Consumer
+ORD-1013,03/13/2026,Office Chair,10,"$2,990.00",West,Delivered,Business
+ORD-1014,2026-03-17,Monitor Arm,4,$356.00,South,Cancelled,Consumer
+ORD-1015,2026-03-23,Bookshelf,6,"$1,314.00",East,Delivered,Business
+ORD-1016,2026-03-30,Standing Desk,3,"$2,097.00",west,Delivered,Business
+ORD-1017,2026-04-06,Office Chair,5,"$1,495.00",North,Delivered,Business
+ORD-1018,2026-04-10,Monitor Arm,8,$712.00,West,Delivered,Business
+ORD-1019,2026-04-15,Filing Cabinet,4,,South,Shipped,Business
+ORD-1020,2026-04-20,Bookshelf,3,$657.00,East,Delivered,Consumer
+ORD-1021,2026-04-24,Standing Desk,6,"$4,194.00",West,Delivered,Business
+ORD-1022,04/28/2026,Office Chair,2,$598.00,South,Pending,Consumer
+ORD-1023,2026-05-05,Standing Desk,8,"$5,592.00",West,Delivered,Business
+ORD-1024,2026-05-08,Monitor Arm,150,"$13,350.00",North,Delivered,Business
+ORD-1025,2026-05-13,Office Chair,7,"$2,093.00",East,Delivered,Business
+ORD-1026,2026-05-18,Bookshelf,4,$876.00,West,Delivered,Consumer
+ORD-1027,2026-05-22,Filing Cabinet,5,"$1,445.00",North,Shipped,Business
+ORD-1028,2026-05-27,Standing Desk,4,"$2,796.00",West,Delivered,Business
+ORD-1029,2026-05-29,Office Chair,3,$897.00,South,Pending,Consumer

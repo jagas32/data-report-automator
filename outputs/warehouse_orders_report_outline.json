@@ -1,0 +1,51 @@
+{
+  "title": "Warehouse Orders Report \u2014 2026-06-06",
+  "sections": [
+    {
+      "heading": "Executive Summary",
+      "points": [
+        "sales_amount changed +541.9% from 2026-01 to 2026-05",
+        "'West' leads region by sales_amount",
+        "'Delivered' leads status by sales_amount"
+      ]
+    },
+    {
+      "heading": "Key Metrics",
+      "metrics": [
+        "total",
+        "rows"
+      ]
+    },
+    {
+      "heading": "Findings",
+      "findings": [
+        "high: sales_amount changed +541.9% from 2026-01 to 2026-05",
+        "high: 'West' leads region by sales_amount",
+        "high: 'Delivered' leads status by sales_amount",
+        "high: 'Business' leads customer_type by sales_amount",
+        "high: Outlier(s) detected in 'sales_amount'",
+        "medium: 'Standing Desk' leads product by sales_amount",
+        "medium: Outlier(s) detected in 'quantity'"
+      ]
+    },
+    {
+      "heading": "Data Quality Notes",
+      "points": [
+        "normalized column names to snake_case",
+        "dropped 1 exact duplicate row(s)",
+        "parsed 'date' to ISO 8601 dates",
+        "coerced 'sales_amount' to numeric (stripped $ , %)",
+        "normalized casing in 'region'",
+        "1 missing value(s) in 'sales_amount' kept and flagged (not imputed)",
+        "flagged 1 outlier(s) in 'quantity' (>3 IQR), kept in data",
+        "flagged 1 outlier(s) in 'sales_amount' (>3 IQR), kept in data"
+      ]
+    },
+    {
+      "heading": "Appendix",
+      "points": [
+        "source, method, columns"
+      ]
+    }
+  ]
+}

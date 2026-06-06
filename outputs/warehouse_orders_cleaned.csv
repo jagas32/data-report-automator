@@ -1,0 +1,30 @@
+order_id,date,product,quantity,sales_amount,region,status,customer_type
+ORD-1001,2026-01-08,Office Chair,4,1196.0,West,Delivered,Business
+ORD-1002,2026-01-12,Standing Desk,2,1398.0,North,Delivered,Business
+ORD-1003,2026-01-15,Monitor Arm,6,534.0,East,Delivered,Consumer
+ORD-1004,2026-01-21,Filing Cabinet,3,867.0,South,Cancelled,Business
+ORD-1005,2026-01-27,Bookshelf,1,219.0,West,Delivered,Consumer
+ORD-1006,2026-02-03,Office Chair,8,2392.0,West,Delivered,Business
+ORD-1007,2026-02-09,Standing Desk,1,699.0,East,Delivered,Consumer
+ORD-1008,2026-02-14,Monitor Arm,12,1068.0,North,Shipped,Business
+ORD-1009,2026-02-18,Bookshelf,2,438.0,South,Delivered,Consumer
+ORD-1010,2026-02-24,Office Chair,3,897.0,East,Delivered,Consumer
+ORD-1011,2026-03-04,Standing Desk,5,3495.0,West,Delivered,Business
+ORD-1012,2026-03-09,Filing Cabinet,2,578.0,North,Delivered,Consumer
+ORD-1013,2026-03-13,Office Chair,10,2990.0,West,Delivered,Business
+ORD-1014,2026-03-17,Monitor Arm,4,356.0,South,Cancelled,Consumer
+ORD-1015,2026-03-23,Bookshelf,6,1314.0,East,Delivered,Business
+ORD-1016,2026-03-30,Standing Desk,3,2097.0,West,Delivered,Business
+ORD-1017,2026-04-06,Office Chair,5,1495.0,North,Delivered,Business
+ORD-1018,2026-04-10,Monitor Arm,8,712.0,West,Delivered,Business
+ORD-1019,2026-04-15,Filing Cabinet,4,,South,Shipped,Business
+ORD-1020,2026-04-20,Bookshelf,3,657.0,East,Delivered,Consumer
+ORD-1021,2026-04-24,Standing Desk,6,4194.0,West,Delivered,Business
+ORD-1022,2026-04-28,Office Chair,2,598.0,South,Pending,Consumer
+ORD-1023,2026-05-05,Standing Desk,8,5592.0,West,Delivered,Business
+ORD-1024,2026-05-08,Monitor Arm,150,13350.0,North,Delivered,Business
+ORD-1025,2026-05-13,Office Chair,7,2093.0,East,Delivered,Business
+ORD-1026,2026-05-18,Bookshelf,4,876.0,West,Delivered,Consumer
+ORD-1027,2026-05-22,Filing Cabinet,5,1445.0,North,Shipped,Business
+ORD-1028,2026-05-27,Standing Desk,4,2796.0,West,Delivered,Business
+ORD-1029,2026-05-29,Office Chair,3,897.0,South,Pending,Consumer
